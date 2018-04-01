@@ -1,0 +1,203 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title Главная
+  meta(name='description' content='')
+  meta(name='keywords' content='')
+  link(rel='stylesheet' type='text/css' href='style.css' media='all')
+.wrapper
+  .header
+    .headerContent
+      .left
+        h1
+          a(href='#')  Лучшая с/х техника!
+      .right
+        form.search
+          input(type='text' placeholder='Поиск...')
+          input(type='image' src='search.png' title='Search')
+  .slider
+    .itemSlider
+      .bgSlide
+        img(src='bg-slide.jpg')
+      .descSlide
+        span Диллеры
+        p
+          | John Deere, Pottinger, Case, Claas, New Holland, Amazone, Massey Ferguson, Gaspardo &icy; &tcy;. &dcy;.
+  .nav
+    ul.menu
+      li
+        a(href='/') О нас
+      li
+        a(href='/contact') Контакты
+
+  .breadcrumbs
+    a(href='#') О нас
+    |  /
+    a(href='#') Другая страница
+    |  / Что-то еще.
+  .main
+    .leftCol
+      form
+        h2 Обратная связь
+        input(type='text' placeholder='Ваше имя ')
+        input(type='text' placeholder='Ваш эл. адрес')
+        input(type='text' placeholder='Выбор позиции')
+        input(type='text' placeholder='Номер телефона ')
+        .row
+          h4 Зап. части
+          input(type='radio')
+          label Импортная техника
+          .clear
+          input(type='radio')
+          label  Отечественная техника
+          .clear
+          input(type='radio')
+          label Б/у зап. части
+          .clear
+        .row
+          h4 Услуги
+          input(type='checkbox')
+          label Услуги техники
+          .clear
+          input(type='checkbox')
+          label Услуги авиации
+          .clear
+        button.minWidth(type='submit') Отправить
+      .row
+        h2 Реклама:
+        p   Здесь может быть ваша реклама (056 123 45 67).
+        p
+          a(href='#') прямая ссылка
+    .rightCol
+      h1 Наша компания
+      p
+        | Наша группа компаний является самым крупным на Украине вертикально интегрированным аграрным холдингом, управляющим самым большим в стране и восьмым в мире банком плодородной черноземной земли площадью 653 тыс. гектаров.
+      ul.img
+        li
+          a(href='#')
+            img(src='11.jpg')
+        li
+          a(href='#')
+            img(src='22.jpg')
+        li
+          a(href='#')
+            img(src='33.jpg')
+      h1 Техника
+      .row
+        .span
+          h4 Техника John Deere
+          ul
+            li Стоимость от 35 000 евро.
+            li Мощность от 130 л.с.
+            li Производительность от 50 га/час
+            li Доставка от 2-х недель
+            li Гарантия от 1 года.
+            li Скидка от 3 до 14 %
+        .span
+          h4 Техника Case
+          ul.unstyled
+            li Стоимость от 30 000 евро.
+            li Мощность от 100 л.с.
+            li Производительность от 20 га/час
+            li Доставка от 2-х недель
+            li Гарантия от 1 года.
+            li Скидка от 3 до 10 %
+        .span
+          h4 Техника Claas
+          ol
+            li Стоимость от 10 000 евро.
+            li Мощность от 82 л.с.
+            li Производительность от 10 га/час
+            li Доставка от 2-х недель
+            li Гарантия от 1 года.
+            li Скидка от 3 до 7 %
+      h1 Лизинг
+      table
+        thead
+          tr
+            th № п/п
+            th Марка
+            th Модель
+            th на 5 лет.
+            th на 15 лет.
+            th на 20 лет.
+        tbody
+          tr
+            td 1
+            td John Deere
+            td W 660
+            td 2 %
+            td 5 %
+            td
+              a(href='#') 7%
+          tr
+            td 2
+            td Case
+            td MX 255
+            td 1 %
+            td 4 %
+            td
+              a(href='#') 6 %
+          tr
+            td 3
+            td Claas
+            td Acxion
+            td 2 %
+            td 5 %
+            td
+              a(href='#') 7%
+          tr
+            td 4
+            td New Holland
+            td T 8040
+            td 2 %
+            td 5 %
+            td
+              a(href='#') 7%
+          tr
+            td 5
+            td МТЗ
+            td 1221
+            td 8 %
+            td 10 %
+            td
+              a(href='#') 12 %
+  .footer
+    .footerContent
+      .span1
+        h1 Мы в соц. сетях:
+        .borderBottom
+        ul.clock
+          li Круглосуточная обратная связь.
+          li Быстрая обработка заявок.
+          li Лушие условия!
+        .social
+          div Мы в социальных сетях:
+          ul
+            li
+              a(target='newtab' href='http://www.facebook.com/?sk=app_2309869772')
+                img(src='facebook.png')
+            li
+              a(target='newtab' href='https://twitter.com/psdhtmlcss')
+                img(src='twitter.png')
+            li
+              img(src='vk.png')
+      .span1
+        h1 Телефоны:
+        .borderBottom
+        ul
+          li Главный офис (056) 221-1107
+          li Киев (044) 202-5428
+          li Полтава (052) 296-2664
+          li Карпаты (033) 221-1107
+          li Одесса (025) 202-5428
+      .span1
+        h1 Адрес:
+        .borderBottom
+        ul.unstyled
+          li 56000 Украина,
+          li Днепропетровская обл.
+          li г.Днепр,
+          li просп. Слобожанский 213.
+          li
+            a(href='Tehnika@gmail.com') technica@gmail.com
